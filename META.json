@@ -1,0 +1,50 @@
+{
+   "abstract" : "JSLint: The JavaScript Code Quality Tool (for JS)",
+   "author" : [
+      "Nick Patch <patch@cpan.org> is the packager of JS-JSLint",
+      "Douglas Crockford <douglas@crockford.com> is the author of JSLint"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.110930",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "JS-JSLint",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.36"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "JS" : 0,
+            "perl" : "v5.6.0"
+         }
+      }
+   },
+   "provides" : {
+      "JS::JSLint" : {
+         "file" : "lib/JS/JSLint.pm",
+         "version" : "0.01"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/patch/js-jslint-pm5/issues"
+      },
+      "homepage" : "https://github.com/patch/js-jslint-pm5",
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ],
+      "repository" : {
+         "url" : "https://github.com/patch/js-jslint-pm5.git"
+      }
+   },
+   "version" : "0.01"
+}
