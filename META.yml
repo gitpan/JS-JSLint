@@ -8,7 +8,7 @@ configure_requires:
   Module::Build: 0.36
 dynamic_config: 1
 generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.110930'
-license: unrestricted
+license: unknown
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
@@ -16,7 +16,7 @@ name: JS-JSLint
 provides:
   JS::JSLint:
     file: lib/JS/JSLint.pm
-    version: 0.02
+    version: 0.03
 requires:
   JS: 0
   perl: v5.6.0
@@ -24,4 +24,4 @@ resources:
   bugtracker: https://github.com/patch/js-jslint-pm5/issues
   homepage: https://github.com/patch/js-jslint-pm5
   repository: https://github.com/patch/js-jslint-pm5.git
-version: 0.02
+version: 0.03
